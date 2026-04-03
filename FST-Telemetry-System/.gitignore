@@ -1,0 +1,56 @@
+# Build directories
+build/
+Debug/
+Release/
+.pio/
+.vscode/
+
+# Compiled Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# STM32 specific
+*.axf
+*.d
+*.crf
+*.htm
+*.lnp
+*.bak
+*.uvopt
+*.uvoptx
+*.uvgui.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Data logs
+*.csv
+telemetry_log*.csv
+
+# IDE specific
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_version
+test_version.exe
+
+# Temporary files
+*.tmp
+*.temp
